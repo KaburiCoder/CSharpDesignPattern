@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "aZXeimiyWYlKc6c3D0599dt7bmMBIaS3nuVDItsmhyYB1zMNtDCgrFdYIL1Cly9mhMtC4Vn2PD9t1oXAk6nB/g==",
+  "success": true,
+  "projectFilePath": "C:\\YoutubeLecture\\WpfTutorials_\\WpfTutorials.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RENEWCOM PC\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+  ],
+  "logs": []
+}

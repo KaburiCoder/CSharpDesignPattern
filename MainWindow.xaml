@@ -1,0 +1,25 @@
+﻿<Window x:Class="WpfTutorials.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTutorials"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+  <Window.Resources>
+    <Style TargetType="Button">
+      <Setter Property="FontSize" Value="20"/>
+    </Style>
+  </Window.Resources>
+  <Canvas>
+    <Button Content="MVC패턴" Canvas.Left="10" Canvas.Top="10" RenderTransformOrigin="-0.239,0.408" HorizontalAlignment="Left" VerticalAlignment="Center" 
+            Click="MVCBtn_Click"/>
+    <Button Content="MVP패턴" Canvas.Left="10" Canvas.Top="46" RenderTransformOrigin="-0.239,0.408" HorizontalAlignment="Center" VerticalAlignment="Top" 
+            Click="MVPBtn_Click"/>
+    <Button Content="MVVM패턴" Canvas.Left="11" Canvas.Top="82" RenderTransformOrigin="-0.239,0.408" 
+      Click="MVVMBtn_Click" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+  </Canvas>
+</Window>
+
+  
+  
